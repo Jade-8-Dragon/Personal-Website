@@ -1,0 +1,93 @@
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  color: #334155;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+footer {
+  margin-top: auto;
+}
+
+small {
+    color: blue;
+}
+
+
+.custom-card {
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: translateY(-4px);
+}
+
+.max-width-alert {
+  max-width: 600px;
+}
+
+.custom-section-title {
+  border-left: 4px solid #2563eb;
+  padding-left: 12px;
+}
+
+
+.hero-section {
+  background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
+  color: #0f172a;
+}
+
+.custom-profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.custom-card-img {
+  height: 200px;
+  object-fit: cover;
+  background-color: #e2e8f0;
+}
+
+
+.hero-section {
+  padding: 3.5rem 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.custom-card {
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+
+.custom-card, .hero-section {
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+
+.btn-primary {
+  background-color: #2563eb !important;
+  border-color: #1d4ed8 !important;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8 !important;
+  border-color: #1e40af !important;
+}
+
+.navbar-dark {
+  background-color: #0f172a !important;
+}
